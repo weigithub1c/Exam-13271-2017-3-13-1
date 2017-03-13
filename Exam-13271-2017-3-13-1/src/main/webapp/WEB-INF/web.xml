@@ -1,0 +1,22 @@
+<web-app>
+
+	<display-name>Archetype Created Web Application</display-name>
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>Servlet.LoginServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/loginServlet.do</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>down</servlet-name>
+		<servlet-class>Servlet.IndexServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>down</servlet-name>
+		<url-pattern>/index</url-pattern>
+	</servlet-mapping>
+
+</web-app>
